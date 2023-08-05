@@ -1,6 +1,5 @@
 import React from 'react';
 import { useForm, Controller } from 'react-hook-form';
-import service from '../../../Backend/models/Servicemodel';
 import { editservice } from '../apicalls/Service';
 
 const EditService = ({ showeditModal, setShoweditModal, Service,render,setrender }) => {
